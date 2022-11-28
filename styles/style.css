@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Roboto:wght@300;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.header__logo {
+    display: block;
+    width: 255px;
+    height: 50px;
+    background-image: url(../images/Logo.svg);
+    background-repeat: no-repeat;
+}
+
+.main {
+    display: flex;
+    margin-top: 113px;
+}
+
+.main__text {
+    width: 562px;
+    height: 368px;
+    margin-bottom: 289px;
+}
+
+.main__title {
+    margin-top: 0;
+    font-size: 81px;
+    font-weight: 700;
+    line-height: 65px;
+    font-family: 'Cabin Sketch', cursive;
+    color: #333;
+}
+
+.main__description {
+    width: 441px;
+    height: 66px;
+    margin-bottom: 56px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #333;
+}
+
+.main__btn__red {
+    width: 264px;
+    height: 66px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 22px;
+    margin-right: 50px;
+    color: #fff;
+    background-color: #CF3031;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0px 66px 90px -15px #CF3031;
+}
+
+#main__btn__span {
+    font-weight: 300;
+    font-size: 12px;
+    padding-top: 4px;
+}
+
+.main__btn {
+    font-size: 16px;
+    color: #4F4F4F;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.main__image {
+    position: relative;
+    flex-grow: 1;
+}
+
+.main__image {
+    position: absolute;
+    top: 58px;
+    right: 487px;
+    width: 822px;
+    height: 822px;
+    max-width: unset;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 56px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#delivery {
+    color: #CF3031;
+}
+
+.companies__images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 56px;
+}
+
+.company__name {
+    width: 282px;
+    height: 282px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 90px -15px rgba(71, 85, 114, 0.15);
+    position: relative;
+}
+
+.company__image {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
